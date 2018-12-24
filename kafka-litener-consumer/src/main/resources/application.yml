@@ -1,0 +1,10 @@
+server:
+  port: 8084
+
+spring:
+  kafka:
+    consumer:
+      enable-auto-commit: true
+      auto-offset-reset: latest
+      bootstrap-servers: myvm.com:9092
+      group-id: test-group
